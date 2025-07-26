@@ -1,1 +1,56 @@
+🏡 Weather-Aware Property Ranking & EDA 📊
+A powerful and insightful data analysis project that explores Indian real estate trends—combining property features with weather conditions and disaster awareness to develop a custom property scoring system.
+
+🔍 Overview
+This project performs an end-to-end Exploratory Data Analysis (EDA) on real estate data, enriched with environmental factors like temperature, humidity, and disaster zones. 
+The goal is to identify ideal properties using smart analytics and visualizations.
+
+Key Features
+✅ Data Cleaning & Validation
+✅ Handling Missing Values
+✅ Normalization of Key Columns
+✅ Univariate, Bivariate, Multivariate Analysis
+✅ Custom Property Score Generation
+✅ Interactive Visualizations with Plotly
+✅ Ranking Based on Environmental & Real Estate Factors
+
+📊 Visual Insights
+📈 Trend of Property Prices Over the Years
+🏠 Price vs Area with BHK & Location Insights
+📌 Top Districts & States by Property Listings
+🌡️ Impact of Temperature & Humidity on Housing
+⚠️ Pie Chart on Disaster-prone Properties
+📦 Boxplots: Price Distribution by State & Year
+
+Scoring Logic
+A Custom_Score is assigned to each property by blending:
+Price (normalized)
+Total Area
+Temperature & Weather
+Disaster Risk
+This helps users identify the most livable and valuable properties at a glance.
+
+ 📁 Project Structure
+📦 Weather-Aware Property Ranking/
+│
+├── weather_aware_property_ranking_1.ipynb    # Main analysis notebook
+├── README.md                                 # This file
+└── data/                                     # (Optional) Dataset files
+
+
+🔮 Future Enhancements
+✨ Build a live dashboard using Streamlit
+✨ Integrate machine learning to predict ideal property score
+✨ Add geospatial maps with Folium
+✨ Connect to live weather APIs for real-time ranking
+
+📌 Technologies Used
+🐍 Python 3
+📈 Plotly Express
+📊 Pandas & NumPy
+📋 Jupyter Notebook
+
+📢 Conclusion
+This project is a data-driven approach to understanding real estate trends in India—factoring in not just size and price, but also climate and safety.
+A strong foundation for further use in smart property recommendations or real estate platforms.
 
