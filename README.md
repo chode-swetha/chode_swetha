@@ -1,1 +1,0 @@
-Weather-Aware Property Ranking 
